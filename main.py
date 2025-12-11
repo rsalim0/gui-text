@@ -7,7 +7,7 @@ import threading
 import numpy as np
 # --- CONFIGURATION ---
 # IF YOU ARE ON WINDOWS, UNCOMMENT THE LINE BELOW AND CHECK THE PATH:
-# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'/usr/local/bin/tesseract'
 class OCRScannerApp:
     def __init__(self, root):
         self.root = root
